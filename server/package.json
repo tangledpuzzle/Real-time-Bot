@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": "tuat tran anh",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "google-search-results-nodejs": "^2.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "langchain": "^0.0.102",
+    "mongoose": "^6.9.2",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.20",
+    "openai": "^3.3.0",
+    "qrcode": "^1.5.3",
+    "replicate": "^0.9.3",
+    "serpapi": "^1.1.1",
+    "sharp": "^0.32.4",
+    "stegcloak": "^1.1.1"
+  }
+}
